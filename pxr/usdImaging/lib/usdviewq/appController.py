@@ -2548,7 +2548,6 @@ class AppController(QtCore.QObject):
             self._resetView()
 
             self._stepSizeChanged()
-            self._stepSizeChanged()
             self._stageView.setUpdatesEnabled(True)
         except Exception as err:
             self.statusMessage('Error occurred reopening Stage: %s' % err)
